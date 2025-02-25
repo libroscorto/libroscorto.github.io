@@ -43,44 +43,144 @@
             text-align: justify;
         }
 
-        .section3 {
-            background-color: #ffffff;
-            padding: 4em 0 4em 0;
-            text-align: justify;
-        }
-
         .section4 {
             background-color: #000000;
-            padding: 4em 0 4em 0;
             text-align: justify;
         }
 
         .libros {
             color: #ffffff;
+            margin: 0 3em;
         }
         
         .que-es-libros {
             color: #000000;
+            margin: 0 3em;
         }
 
         .que-es-libros2 {
             color: #000000;
-            margin: 0 1em;
+            margin: 0 3em;
         }
 
         .about {
             color: #000000;
+            margin: 0 3em;
         }
 
         .about2 {
             color: #000000;
-            margin: 0 1em;
+            margin: 0 3em;
+        }
+        
+        @media screen and (max-width: 600px) {
+            .section1 {
+                padding: 3em 0;
+            }
+
+            .libros {
+                font-size: 30px;
+            }
+
+            .nav {
+                visibility: hidden;
+            }
+            
+            .que-es-libros {
+                font-size: 40px;
+                margin: 0 10px;
+            }
+
+            .que-es-libros2 {
+                font-size: 30px;
+                margin: 0 10px;
+            }
+
+            .about {
+                font-size: 40px;
+                margin: 0 10px;
+            }
+
+            .about2 {
+                font-size: 30px;
+                margin: 0 10px;
+            }
+
+            .comoparticipar {
+                font-size: 40px;
+                margin: 0 10px;
+            }
+
+            .comoparticipar2 {
+                font-size: 30px;
+                margin: 0 10px;
+            }
+
+            .comoparticipar3 {
+                font-size: 30px;
+                margin: 0 10px;
+            }
+
+            .libros {
+                font-size: 70px;
+                margin: 0 10px;
+            }
+
+            .progresotext {
+                font-size: 50px;
+                margin: 0 10px;
+            }
+
+            .progresotext2 {
+                font-size: 30px;
+                margin: 0 10px;
+            }
+
+            .section4 {
+                padding: 2em 0;
+            }
+
+            .logos {
+                padding-top: 2em;
+                padding-bottom: 1em;
+            }
+
         }
 
+        @media screen and (min-width: 600px) {
+
+            .comoparticipar3 {
+            font-size: 70px;
+            margin: 0 3em;
+            }
+            
+            .section4 {
+                padding: 4em 0 4em 0;
+            }
+
+            .logos {
+                padding-top: 4em;
+                padding-bottom: 2em;
+            }
+        }
+
+        .section3 {
+            background-color: #ffffff;
+            text-align: justify;
+            padding: 4em 0 4em 0;
+        }
+        
         .comoparticipar3 {
             color: #ff0000;
-            font-size: 70px;
             user-select:text;
+        }
+
+        .comoparticipar2 {
+            margin: 0 3em;
+        }
+
+        .comoparticipar {
+            margin: 0 3em;
         }
 
         * {
@@ -123,6 +223,12 @@
             padding: 2em 0;
         }
 
+        .progreso {
+            background-color: #000000;
+            padding: 8em 0 8em 0;
+            text-align: justify;
+        }
+
     </style>
 </head>
 <body>
@@ -135,6 +241,14 @@
     <div class="section1">
         <a href="#section2"><h1 class="libros">Libros</h1></a>
     </div>
+
+    <div id="progreso" class="progreso">
+        <h1 class="progresotext">Progreso</h1>
+        <h4 class="progresotext2">
+            Para ver el progreso del cortometraje, haz click <a href="https://www.figma.com/board/3hKb5cJ6VAYTL6gkYHWy6f/Libros-Progreso?node-id=0-1&t=Ny8So1653iaIRMdo-1" style="color: #ff0000;">aquí</a>
+        </h4>
+    </div>
+    
     
     <div id="section2" class="section2">
         <h1 class="que-es-libros">¿Qué es libros?</h1>
