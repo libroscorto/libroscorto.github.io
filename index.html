@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Libros es un cortometraje desarrollado por 2 alumnos del IES Princesa Galiana. El corto trata sobre el bullying.">
+    <lang="es">
     <title>Libros</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,10 +14,49 @@
 
     <style>
 
+        <!--COLOR-->
+        
         h1 {
             text-align: center;
             color: #ffffff;
-            font-size: 7em;
+        }
+
+        .h4negro {
+            color: #000000;
+            text-align: center;
+        }
+
+        .h4blanco {
+            color: #ffffff;
+            text-align: center;
+        }
+
+        a {
+            color: #ff0000;
+            text-decoration: none;
+        }
+
+        .divblanco {
+            background-color: #ffffff;
+        }
+
+        .divnegro {
+            background-color: #000000;
+        }
+
+        .progresotext {
+                color: #ffffff;
+                text-align: center;
+            }
+
+        .titulosprin1 {
+            text-align: center;
+            color: #000000;
+        }
+
+        .titulosprin2 {
+            text-align: center;
+            color: #ffffff;
         }
         
         h4 {
@@ -33,204 +74,161 @@
             background-color: #000000;
         }
 
-        .section1 {
-            padding: 23em 0;
-        }
-        
-        .section2 {
-            background-color: #ffffff;
-            padding: 4em 0 4em 0;
-            text-align: justify;
-        }
-
-        .section4 {
-            background-color: #000000;
-            text-align: justify;
-        }
-
         .libros {
             color: #ffffff;
-            margin: 0 3em;
-        }
-        
-        .que-es-libros {
-            color: #000000;
-            margin: 0 3em;
+            text-align: center;
+            }
+
+        .correopart {
+            color: #ff0000;
+            user-select:text;
         }
 
-        .que-es-libros2 {
-            color: #000000;
-            margin: 0 3em;
+        #logos {
+            display: flex;
+            justify-content: center;
+            background-color: #ffffff;
         }
 
-        .about {
-            color: #000000;
-            margin: 0 3em;
-        }
+        @media screen and (min-width: 900px) {
 
-        .about2 {
-            color: #000000;
-            margin: 0 3em;
-        }
-        
-        @media screen and (max-width: 900px) {
+            *{
+                margin: 0;
+                padding: 0;
+                text-decoration: none;
+                scroll-behavior: smooth;
+                user-select: none;
+            }
+            
             .section1 {
-                padding: 3em 0;
+                padding: 330px 0;
+            }
+
+            .titulosprin1 {
+                font-size: 70px;
+                margin: 0 1em;
+            }
+
+            .divblanco {
+                padding: 70px 200px;
+            }
+
+            .divnegro {
+                padding: 70px 200px;
+            }
+
+            .titulosprin2 {
+                font-size: 70px;
+                margin: 0 1em;
             }
 
             .libros {
-                font-size: 30px;
+                margin: 0 3em;
+                font-size: 100px;
+            }
+
+            #logoepic {
+                width: 200px;
+                margin: 0 20px;
+            }
+
+            #logogaliana {
+                width: 170px;
+                margin: 0 20px;
+            }
+
+            #logos {
+                padding: 60px 0 40px 0;
+            }
+
+            .textosnav {
+            color: #ffffff;
+            font-size: 2em;
+            margin: 0 0.5em;
+            }
+
+            .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #000000;
+            padding: 2em 0;
+            }
+
+            .correopart {
+                margin: 0 1em;
+                font-size: 70px;
+            }
+        }
+
+        @media screen and (max-width: 900px) {
+
+            * {
+                margin: 0;
+                padding: 0;
+                text-decoration: none;
+                scroll-behavior: smooth;
+                user-select: none;
+            }
+
+            .section1 {
+                padding: 280px 0;
+            }
+
+            .titulosprin1 {
+                font-size: 45px;
+                margin: 0 10px;
+            }
+
+            .divblanco {
+                padding: 50px 30px;
+            }
+
+            .divnegro {
+                padding: 50px 30px;
+            }
+
+            .titulosprin2 {
+                font-size: 45px;
+                margin: 0 10px;
+            }
+
+            .libros {
+                margin: 0 20px;
+                font-size: 65px;
+            }
+
+            #logoepic {
+                width: 130px;
+                margin: 0 10px;
+            }
+
+            #logogaliana {
+                width: 100px;
+                margin: 0 10px;
+            }
+
+            #logos {
+                padding: 40px 0 20px 0;
             }
 
             .nav {
                 visibility: hidden;
             }
-            
-            .que-es-libros {
-                font-size: 40px;
-                margin: 0 10px;
-            }
 
-            .que-es-libros2 {
+            .correopart {
+                margin: 0 10px;
                 font-size: 30px;
-                margin: 0 10px;
             }
 
-            .about {
-                font-size: 40px;
-                margin: 0 10px;
-            }
-
-            .about2 {
+            h4 {
                 font-size: 30px;
-                margin: 0 10px;
             }
-
-            .comoparticipar {
-                font-size: 40px;
-                margin: 0 10px;
-            }
-
-            .comoparticipar2 {
-                font-size: 30px;
-                margin: 0 10px;
-            }
-
-            .comoparticipar3 {
-                font-size: 30px;
-                margin: 0 10px;
-            }
-
-            .libros {
-                font-size: 70px;
-                margin: 0 10px;
-            }
-
-            .progresotext {
-                font-size: 50px;
-                margin: 0 10px;
-            }
-
-            .progresotext2 {
-                font-size: 30px;
-                margin: 0 10px;
-            }
-
-            .section4 {
-                padding: 2em 0;
-            }
-
-            .logos {
-                padding-top: 2em;
-                padding-bottom: 1em;
-            }
-
-        }
-
-        @media screen and (min-width: 900px) {
-
-            .comoparticipar3 {
-            font-size: 70px;
-            margin: 0 3em;
-            }
-            
-            .section4 {
-                padding: 4em 0 4em 0;
-            }
-
-            .logos {
-                padding-top: 4em;
-                padding-bottom: 2em;
-            }
-        }
-
-        .section3 {
-            background-color: #ffffff;
-            text-align: justify;
-            padding: 4em 0 4em 0;
-        }
-        
-        .comoparticipar3 {
-            color: #ff0000;
-            user-select:text;
-        }
-
-        .comoparticipar2 {
-            margin: 0 3em;
-        }
-
-        .comoparticipar {
-            margin: 0 1em;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            text-decoration: none;
-            scroll-behavior: smooth;
-            user-select: none;
-        }
-
-        #logoepic {
-            width: 200px;
-            text-align: center;
-            margin: 20px;
-        }
-
-        #logogaliana {
-            width: 170px;
-            text-align: center;
-            margin: 20px;
-        }
-
-        .logos {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            background-color: #ffffff;
-        }
-
-        .textosnav {
-            color: #ffffff;
-            font-size: 2em;
-            margin: 0 0.5em;
-        }
-
-        .nav {
-            display: flex;
-            justify-content: center;
-            background-color: #000000;
-            padding: 2em 0;
-        }
-
-        .progreso {
-            background-color: #000000;
-            padding: 8em 0 8em 0;
-            text-align: justify;
         }
 
     </style>
 </head>
+
+
 <body>
     <nav class="nav">
         <a href="#section2"class="textosnav">¿Qué es libros?</a>
@@ -242,43 +240,45 @@
         <a href="#section2"><h1 class="libros">Libros</h1></a>
     </div>
 
-    <div id="progreso" class="progreso">
-        <h1 class="progresotext">Progreso</h1>
-        <h4 class="progresotext2">
+    <div class="divnegro" id="progreso">
+        <h1 class="titulosprin2" class="progresotext">Progreso</h1>
+        <h4 class="h4blanco">
             Para ver el progreso del cortometraje, haz click <a href="https://www.figma.com/board/3hKb5cJ6VAYTL6gkYHWy6f/Libros-Progreso?node-id=0-1&t=Ny8So1653iaIRMdo-1" style="color: #ff0000;">aquí</a>
         </h4>
     </div>
     
     
-    <div id="section2" class="section2">
-        <h1 class="que-es-libros">¿Qué es libros?</h1>
-        <h4 class="que-es-libros2">
+    <div class="divblanco" id="section2">
+        <h1 class="titulosprin1">¿Qué es libros?</h1>
+        <h4 class="h4negro">
             Libros es un cortometraje desarrollado por 2 alumnos del IES Princesa Galiana.<br>
             El corto trata sobre el bullying y como este puede hacer que cargues con libros innecesarios en tu mochila.
         </h4>
     </div>
 
 
-    <div id="section3" class="section3">
-        <h1 class="about">Sobre nosotros</h1>
-        <h4 class="about2">
+    <div class="divblanco" id="section3">
+        <h1 class="titulosprin1"class="about">Sobre nosotros</h1>
+        <h4 class="h4negro">
             Somos 2 alumnos del instituto IES Princesa Galiana a los que nos gusta el teatro y el mundo audiovisual.<br>
             Este sería nuestro primer proyecto enserio y gracias a la colaboración de nuestro centro, va a ser posible.
         </h4>
     </div>
 
-    <div id="section4" class="section4">
-        <h1 class="comoparticipar">Cómo participar</h1>
-        <h4 class="comoparticipar2">Para participar, envía un mensaje a este correo:</h4>
-        <h4 class="comoparticipar3">libroscorto@outlook.es</h4>
+    <div class="divnegro" id="section4">
+        <h1 class="titulosprin2"class="comoparticipar">Cómo participar</h1>
+        <h4 class="h4blanco">Para participar, haz click <a href="https://forms.office.com/r/CXnGq7tj7y" target="_blank">aquí</a> para rellenar un cuestionario o envía un mensaje a este correo:</h4>
+        <h4 class="correopart">libroscorto@outlook.es</h4>
     </div>
 
-    <div class="logos">
+    <div id="logos">
         <h1><img id="logoepic" src="Logo.svg" style="filter: invert(1);"></h1>
-        <h1><img id="logogaliana" src="Galiana.png"></h1>
+        <a href="https://www.iesprincesagaliana.com/" target="_blank"><img id="logogaliana" src="Galiana.png"></a>
     </div>
 
 
 
 </body>
 </html>
+
+<!--PÁGINA WEB DESARROLLADA POR @hugo_on en YT-->
